@@ -1,0 +1,14 @@
+# editorconfig.org
+# 使用.editorconfig文件来设置JavaScript文件的行尾和缩进风格
+
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
